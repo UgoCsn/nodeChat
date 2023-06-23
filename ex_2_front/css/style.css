@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 50px;
+}
+
+#logged {
+    display: none;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    padding: 10px 5px;
+    cursor: pointer;
+}
+
+.me {
+    text-align: right;
+}
+
+#cancelButton {
+    background-color: red;
+}
+
+#edit {
+    display: none;
+}

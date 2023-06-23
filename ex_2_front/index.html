@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+</head>
+<body>
+    <h2>Hello</h2>
+    <p id="msg"></p>
+    <div id="logout">
+        <h2>Connectez-vous</h2>
+        <form>
+            <input 
+                type="text"
+                placeholder="login"
+                id="login"
+            />
+            <input 
+                type="text"
+                placeholder="password"
+                id="password"
+            />
+            <button id="send">
+                Envoyer
+            </button>
+            
+        </form>
+    </div>
+
+    <div id="logged">
+        <div>
+            <p>Vous êtes connecté</p>
+            <div id="userInfo">
+
+            </div>
+            <button
+                id="disconnect"
+            >
+                se Déconnecter
+            </button>
+        </div>
+        <div>
+            <textarea id="createMessage">
+
+            </textarea>
+            <button
+                id="sendMessage"
+            >
+                envoyer
+            </button>
+            <div id="edit">
+                <button id="editButton">
+                    Modifier
+                </button>
+                <button id="cancelButton">
+                    Annuler
+                </button>
+            </div>
+        </div>
+        <div id="msg-list">
+
+        </div>
+    </div>
+    
+</body>
+
+<script type="module" src="js/index.js"></script>
+</html>
